@@ -152,11 +152,8 @@
 .description {
   color: #534c64;
   text-align: right;
-  font-family: Work Sans;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 30px;
   margin: 20px 0px;
 }
 .banner-lower-image > img {
@@ -175,4 +172,77 @@
   height: 20px;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* This is Online Games Funny Videos section */
+.funny-videos h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.common-description{
+  color: #534c64;
+  font-size: 12px;
+  font-weight: 400;
+}
+.funny-video-content{
+ text-align: center;
+}
+.funny-videos{
+  margin-top: 70px;
+}
+.cart > img{
+  height: 270px;
+  width: 220px;
+}
+.box-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 150px;
+
+}
+.funny-span{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+
+}
+.funny-video-content > h2{
+  margin-bottom: 7px;
+}
+.hover-class:hover{
+  
+}
+
+/* This is position changing part */
+.position-content > h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.position-change-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 150px;
+  
+}
+.img1{
+  height: 350px;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.position-content{
+  width: 50%;
+  text-align: right;
+  margin-right: 200px;
+  padding-bottom: 60px;
+}
+.img2{
+  position: relative;
+  top: -100px;
+  right: 20px;
+  height: 150px;
+  width: 150px;
+
 }

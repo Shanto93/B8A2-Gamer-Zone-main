@@ -200,6 +200,7 @@
 .box-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 30px 150px;
 }
 .funny-span {
@@ -387,6 +388,17 @@ footer {
   font-size: 13px;
 }
 
+@media screen and (max-width: 768px) {
+.box-container{
+  flex-wrap: wrap;
+}
+.position-content{
+  margin-right: 100px;
+}
+.banner-lower-container{
+  padding: 10px 0;
+}
+}
 @media screen and (max-width: 425px) {
   .common-gap {
     margin: 0px 0px;

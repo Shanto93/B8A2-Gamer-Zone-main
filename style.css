@@ -547,7 +547,28 @@ footer {
   width: 100%;
 }
 .users-container ul {
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
-
+.users-container  {
+  padding:  70px 0;
+}
+.user-span{
+  font-size: smaller;
+}
+.position-content{
+  margin: 20px 30px;
+  text-align: center;
+}
+.position-image{
+  text-align: center;
+  position: relative;
+}
+.position-image .img1{
+  width: 70%;
+}
+.position-image .img2{
+  position: absolute;
+  left: 10px;
+  top: 70%;
+}
 }
